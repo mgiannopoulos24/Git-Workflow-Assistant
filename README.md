@@ -45,84 +45,84 @@ The Git Workflow Assistant can be used by executing the `cli.py` script followed
 
 - `init`: Initialize a new Git repository.
     ```sh
-    python cli.py init
+    python3 cli.py init
     ```
 
 - `branch`: Create a new branch. Requires `--branch` option.
     ```sh
-    python cli.py branch --branch <branch_name>
+    python3 cli.py branch --branch <branch_name>
     ```
 
 - `switch`: Switch to an existing branch. Requires `--branch` option.
     ```sh
-    python cli.py switch --branch <branch_name>
+    python3 cli.py switch --branch <branch_name>
     ```
 
 - `list`: List all branches.
     ```sh
-    python cli.py list
+    python3 cli.py list
     ```
 
 - `commit`: Commit changes with a message. Requires `--message` option.
     ```sh
-    python cli.py commit --message "<commit_message>"
+    python3 cli.py commit --message "<commit_message>"
     ```
 
 - `push`: Push changes to a remote repository. Optionally specify `--remote` and `--branch`.
     ```sh
-    python cli.py push --remote <remote_name> --branch <branch_name>
+    python3 cli.py push --remote <remote_name> --branch <branch_name>
     ```
 
 - `merge`: Merge one branch into another. Requires `--source` and `--target` options.
     ```sh
-    python cli.py merge --source <source_branch> --target <target_branch>
+    python3 cli.py merge --source <source_branch> --target <target_branch>
     ```
 
 - `interactive`: Start the interactive mode.
     ```sh
-    python cli.py interactive
+    python3 cli.py interactive
     ```
 
 ### Examples
 
 1. **Initialize a Repository**:
     ```sh
-    python cli.py init
+    python3 cli.py init
     ```
 
 2. **Create a New Branch**:
     ```sh
-    python cli.py branch --branch feature-branch
+    python3 cli.py branch --branch feature-branch
     ```
 
 3. **Switch to an Existing Branch**:
     ```sh
-    python cli.py switch --branch feature-branch
+    python3 cli.py switch --branch feature-branch
     ```
 
 4. **List All Branches**:
     ```sh
-    python cli.py list
+    python3 cli.py list
     ```
 
 5. **Commit Changes**:
     ```sh
-    python cli.py commit --message "Add new feature"
+    python3 cli.py commit --message "Add new feature"
     ```
 
 6. **Push Changes to a Remote Repository**:
     ```sh
-    python cli.py push --remote origin --branch main
+    python3 cli.py push --remote origin --branch main
     ```
 
 7. **Merge One Branch into Another**:
     ```sh
-    python cli.py merge --source feature-branch --target main
+    python3 cli.py merge --source feature-branch --target main
     ```
 
 8. **Start Interactive Mode**:
     ```sh
-    python cli.py interactive
+    python3 cli.py interactive
     ```
 
 ## Contributing
